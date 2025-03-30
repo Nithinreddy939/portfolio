@@ -1,0 +1,20 @@
+{% extends "index.html" %}
+{% block main_content %}
+{% load static %}
+<link rel="stylesheet" href="{% static "css/about.css" %}">
+<title>{% block title %}About{% endblock title %}</title>
+<div class="about">
+    <h1 style="margin:0 20px"><u>About</u> :-</h1>
+    <div class="container">
+        <div class="row justify-content-evenly">
+            <div class="card  col-lg-4 col-md-4 col-sm-12">
+                <h5 class="card-title">Personal Information</h5>
+                <p class="card-text">I am Nithin, I am a FullStack Developer. I have completed my graduation in the stream of BCA (Data Science). I am from Tirupati, Andhra Pradesh. I am a self-learner and I am very passionate about learning new technologies.</p>
+            </div>
+            <div class="card1  col-lg-4 col-md-4 col-sm-12">
+                <img src="{% static "images/nithin_profile.jpeg" %}" alt="profile Image" class="image">
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock main_content %}

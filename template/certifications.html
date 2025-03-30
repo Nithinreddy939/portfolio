@@ -1,0 +1,23 @@
+{% extends "index.html" %}
+{% block main_content %}
+{% load static %}
+<link rel="stylesheet" href="{% static "css/certifications.css" %}">
+<title>{% block title %}Certifications{% endblock title %}</title>
+<div class="certifications">
+    <h1 style="margin:0 20px"><u>Certifications</u> :-</h1>
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="card  col-lg-4 col-md-4 col-sm-12">
+                <h5 class="card-title">Python FullStack Development (Internship) </h5>
+                <p class="card-text">During the internship,I learn how to develop website with these techonologies are Html,Css, Bootstrap, Python, Django.</p>
+                <a href="https://drive.google.com/file/d/11KrHYC0_D2_M5eoYeGRPTsEFSjL7PeiL/view?usp=drive_link" class="btn btn-primary">View Project</a>
+            </div>
+            <div class="card  col-lg-4 col-md-4 col-sm-12">
+                <h5 class="card-title">Power BI (Short-term Internship) </h5>
+                <p class="card-text">During the internship,I learn how to analyse the data and give the genarate graphs with that power BI tool.</p>
+                <a href="https://drive.google.com/file/d/12cnUDS5gATMABUtYIg54yaYO6wftOJqm/view?usp=drive_link" class="btn btn-primary">View Project</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock main_content %}

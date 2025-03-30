@@ -1,0 +1,39 @@
+{% extends "index.html" %}
+{% block main_content %}
+{% load static %}
+<link rel="stylesheet" href="{% static "css/projects.css" %}">
+<title>{% block title %}Projects{% endblock title %}</title>
+<div class="projects">
+    <h1 class="h1"><u>Projects</u> :-</h1>
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="card  col-lg-4 col-md-4 col-sm-12">
+                <img src="https://i.pinimg.com/736x/0c/a3/4e/0ca34e15b6e9ed65aae9bf47ffb3c38a.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Personal Portfolio</h5>
+                    <p class="card-text">This is my personal portfolio.It was develope by Nithin.In this Portfolio totally about me.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+            <div class="card col-lg-4 col-md-4 col-sm-12">
+                <img src="https://i.pinimg.com/736x/d9/a0/e0/d9a0e0f146408372ecedc27d47abcf42.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Todo Application</h5>
+                    <p class="card-text">In Todo application, We can do <u><B>CRUD</B></u> operation like add, delete, update.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+            <div class="card  col-lg-4 col-md-4 col-sm-12">
+                <img src="{% static "images/tirupatifoodblog.jpeg" %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Tirupati FoodVlog Website</h5>
+                    <p class="card-text">In this website, we can order the street food in thirupati and see the exact location of the shop with prices. It is my lifetime project</p>
+                    <a href="#" class="btn btn-primary">View Project</a> <h6 style="font-size:10px;float:right"><strike>In progress</strike></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+                        
+</div>
+
+{% endblock main_content %}

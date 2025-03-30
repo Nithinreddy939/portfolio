@@ -1,0 +1,21 @@
+.h1{
+    color: white;
+    /* text-align: center; */
+    margin: 0 20px;
+}
+.card{
+    padding: 10px ;
+    border: 1.5px solid #e9ecef;
+    background-color: #2C3E50;
+    margin: 10px 0;
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    box-shadow: inset 0 0 20px #000000;
+}
+.card-img-top{
+    /* width: 320px; */
+    height: 250px;
+    object-fit: cover;
+}
