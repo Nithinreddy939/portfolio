@@ -83,20 +83,20 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
     # }
 
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'portfolio_name',
-        'USER': 'root',
-        'PASSWORD': 'nandhu',
-        'HOST': 'localhost',
-        'PORT': '3306',
-    }
-}
-
-# DATABASES= {
-#     'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'portfolio_name',
+#         'USER': 'root',
+#         'PASSWORD': 'nandhu',
+#         'HOST': 'localhost',
+#         'PORT': '3306',
+#     }
 # }
+
+DATABASES= {
+    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+}
 
 
 # Password validation
