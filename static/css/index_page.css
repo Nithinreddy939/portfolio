@@ -4,13 +4,13 @@
     color: white;
     transition: ease 2s;
 }
-.profile{
+/* .profile{
     width: 400px;
     height: 400px;
     object-fit: cover;
     border-radius: 20%;
     border: 1px solid #fff;
-}
+} */
 .col{
     align-content: center;
     display: flex;
@@ -28,3 +28,8 @@
     align-items: start;
     flex-direction: column;
 }    */
+
+
+@media screen and (max-width: 600px) {
+    .
+}

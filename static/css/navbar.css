@@ -15,6 +15,16 @@
     height: 150px;
     margin-right: 10px;
 }
+.navbar-toggler{
+    margin: 10px;
+}
 form{
     margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+   .buttons{
+    display: none;
+   }
+    
 }
